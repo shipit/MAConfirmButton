@@ -27,6 +27,10 @@ typedef enum {
 	UIButton *cancelOverlay;
 }
 
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *confirm;
+@property (nonatomic, copy) NSString *disabled;
+@property (nonatomic, retain) UIColor *tint;
 @property (nonatomic, assign) MAConfirmButtonToggleAnimation toggleAnimation;
 
 + (MAConfirmButton *)buttonWithTitle:(NSString *)titleString confirm:(NSString *)confirmString;

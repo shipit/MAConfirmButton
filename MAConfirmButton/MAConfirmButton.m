@@ -14,11 +14,6 @@
 
 @interface MAConfirmButton ()
 
-@property (nonatomic, copy) NSString *title;
-@property (nonatomic, copy) NSString *confirm;
-@property (nonatomic, copy) NSString *disabled;
-@property (nonatomic, retain) UIColor *tint;
-
 - (void)toggle;
 - (void)setupLayers;
 - (void)cancel;
